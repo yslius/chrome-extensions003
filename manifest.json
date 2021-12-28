@@ -1,0 +1,13 @@
+{
+	"manifest_version": 2,
+	"name": "sample003",
+	"version": "1.0",
+	"description": "",
+	"content_scripts": [{
+		// "matches": ["https://www.google.com/"],
+        "matches": ["http://*/*","https://*/*"],
+		"js": [
+			"main.js"
+		]
+	}]
+}
